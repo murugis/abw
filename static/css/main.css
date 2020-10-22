@@ -1537,7 +1537,7 @@ input, select, textarea {
 		border-radius: 8px;
 		border: solid 1px rgb(5, 5, 5);
 		background: rgb(67, 221, 6);
-		color: rgb(51, 211, 11);
+		color: rgb(221, 230, 219);
 		box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
 		width: 100%;
 	}
@@ -2094,17 +2094,17 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: rgb(107, 230, 25);
+			background-color: rgb(116, 21, 124);
 		}
 
 		.wrapper.style2 {
-			background-color: #60c40f;
+			background-color: #def1ed;
 			text-shadow: 1px 1px 0px rgb(14, 12, 12);
 		}
 
 		.wrapper.style3 {
-			background-color: #45df16;
-			text-shadow: 1px 1px 0px rgb(8, 14, 3);
+			background-color: #cadfc4;
+			text-shadow: 1px 1px 0px rgb(24, 26, 23);
 		}
 
 		.wrapper.style4 {
@@ -2135,7 +2135,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #3ad10c;
+		background-color: #dcf1d6;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -2165,7 +2165,7 @@ input, select, textarea {
 			transition: background-color .2s ease-in-out;
 			position: relative;
 			display: block;
-			color: rgb(83, 228, 17);
+			color: rgb(233, 240, 230);
 			text-decoration: none;
 			outline: 0;
 			font-weight: 600;
@@ -2177,7 +2177,7 @@ input, select, textarea {
 		}
 
 			#nav a:hover {
-				color: rgb(13, 224, 31) !important;
+				color: rgb(207, 224, 209) !important;
 				background: #8a0337;
 			}
 
