@@ -101,11 +101,11 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		font-family: "Cookie";/* the font of the word*/
 		line-height: 1.85em;
-		color: rgb(170, 13, 13);
+		color: rgb(24, 23, 23);
 		font-weight: 300;
-		font-size: 13pt;
+		font-size: 15pt;
 	}
 
 	a {
@@ -137,23 +137,23 @@ input, select, textarea {
 	sub {
 		position: relative;
 		top: 0.5em;
-		font-size: 0.8em;
+		font-size: 1em;
 	}
 
 	sup {
 		position: relative;
 		top: -0.5em;
-		font-size: 0.8em;
+		font-size: 1em;
 	}
 
 	blockquote {
 		border-left: solid 0.75em #eee;
 		padding: 1em 0 1em 1.5em;
-		font-style: italic;
+		font-family: "Cookie";
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #E91E63;
+		color: #faf3f3;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -177,12 +177,12 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 3em;
 		letter-spacing: -0.015em;
 	}
 
 	h3 {
-		font-size: 1.5em;
+		font-size: 2.5em;
 		letter-spacing: -0.015em;
 	}
 
@@ -196,7 +196,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-top: solid 1px #444;
+		border-top: solid 1px rgb(248, 244, 244);
 		border-top-color: rgba(0, 0, 0, 0.35);
 		box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 		height: 1px;
@@ -1514,7 +1514,7 @@ input, select, textarea {
 /* Form */
 
 	form label {
-		color: #141313;
+		color: #0c0c0b;
 		font-weight: 700;
 		display: block;
 		margin: 0 0 0.5em 0;
@@ -1535,9 +1535,9 @@ input, select, textarea {
 		padding: 0.75em;
 		font-size: 1em;
 		border-radius: 8px;
-		border: solid 1px rgb(5, 5, 5);
-		background: rgb(67, 221, 6);
-		color: rgb(221, 230, 219);
+		border: solid 1px rgb(5, 5, 5);/* border of the boxes*/
+		background: rgb(236, 241, 235);/*color of the boxes*/
+		color: rgb(18, 19, 18);/*color of the fill out portion*/
 		box-shadow: inset 0px 2px 3px 1px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025);
 		width: 100%;
 	}
@@ -1547,7 +1547,7 @@ input, select, textarea {
 		form input[type=password]:focus,
 		form select:focus,
 		form textarea:focus {
-			background: rgb(67, 221, 6);
+			background: rgb(133, 207, 247);/*color when box is highlighted*/
 			box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 1px 0px 0px rgba(255, 255, 255, 0.025), inset 0px 0px 2px 1px #43bff0;
 		}
 
@@ -1560,7 +1560,7 @@ input, select, textarea {
 	}
 
 	form ::-webkit-input-placeholder {
-		color: #555 !important;
+		color: rgb(238, 216, 22) !important;
 	}
 
 	form :-moz-placeholder {
@@ -1609,8 +1609,8 @@ input, select, textarea {
 			}
 
 			table.default thead {
-				background: #4f4f4f;
-				color: #fff;
+				background: #9be7ec;
+				color: rgb(11, 216, 243);
 			}
 
 /* Section/Article */
@@ -1721,7 +1721,7 @@ input, select, textarea {
 		input[type="reset"].large,
 		button.large,
 		.button.large {
-			font-size: 1.5em;
+			font-size: 1em;
 			letter-spacing: -0.025em;
 		}
 
@@ -1739,7 +1739,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background-color: #34ec0f;
+				background-color: #16d0dd;
 				color: rgb(8, 8, 8) !important;
 			}
 
@@ -2094,17 +2094,17 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background-color: rgb(116, 21, 124);
+			background-color: rgb(67, 152, 233);
 		}
 
 		.wrapper.style2 {
-			background-color: #def1ed;
+			background-color: #8f918d;
 			text-shadow: 1px 1px 0px rgb(14, 12, 12);
 		}
 
 		.wrapper.style3 {
-			background-color: #cadfc4;
-			text-shadow: 1px 1px 0px rgb(24, 26, 23);
+			background-color: #676966;
+			text-shadow: 1px 1px 0px rgb(8, 14, 3);
 		}
 
 		.wrapper.style4 {
@@ -2135,7 +2135,7 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #dcf1d6;
+		background-color: #3ad10c;
 		text-align: center;
 		position: fixed;
 		left: 0;
@@ -2165,7 +2165,7 @@ input, select, textarea {
 			transition: background-color .2s ease-in-out;
 			position: relative;
 			display: block;
-			color: rgb(233, 240, 230);
+			color: rgb(83, 228, 17);
 			text-decoration: none;
 			outline: 0;
 			font-weight: 600;
@@ -2177,7 +2177,7 @@ input, select, textarea {
 		}
 
 			#nav a:hover {
-				color: rgb(207, 224, 209) !important;
+				color: rgb(13, 224, 31) !important;
 				background: #8a0337;
 			}
 
@@ -2194,7 +2194,7 @@ input, select, textarea {
 					margin-left: -0.75em;
 					border-left: solid 0.75em transparent;
 					border-right: solid 0.75em transparent;
-					border-top: solid 0.6em #d60cc5;
+					border-top: solid 0.6em #070707;
 				}
 
 /* Articles */
@@ -2341,7 +2341,7 @@ input, select, textarea {
 
 /* Small */
 
-	@media screen and (max-width: 73px) {
+	@media screen and (max-width: 730px) {
 
 		/* Basic */
 
